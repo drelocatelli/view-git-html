@@ -38,9 +38,8 @@ form{
     bottom:15px;
     right:5px;
 }
-
+button{cursor:pointer;}
 input,button{
-    cursor:pointer;
     padding:5px;
     font-size:10px;
 }
@@ -49,9 +48,8 @@ input,button{
 <?php }else{ ?>
 
 <style>
-    
+    button{cursor:pointer;}
     input,button{
-        cursor:pointer;
         padding:5px;
         font-size:26px;
     }
