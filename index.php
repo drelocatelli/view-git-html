@@ -55,3 +55,9 @@ input,button{
     }
 </style>
 <?php } ?>
+
+<script>
+    document.querySelector('input').onclick = function(e){
+        e.target.select();
+    }
+</script>
