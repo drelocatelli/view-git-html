@@ -10,7 +10,7 @@
     <div style="display: flex; flex-direction: column; align-items: center;">
         <form method="get" action="index.php?raw_url=<?php if(isset($_GET['raw_url'])){echo $raw_url;} ?>" name="git">
             <input type="url" name="raw_url" placeholder="paste raw link" value="<?php if(isset($_GET['raw_url'])){echo $_GET['raw_url'];} ?>" required>
-            <button type="submit">checar html</button>
+            <button type="submit">visualizar</button>
             </form>
     </div>
 
