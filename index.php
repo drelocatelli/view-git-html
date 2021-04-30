@@ -40,6 +40,7 @@ form{
 }
 
 input,button{
+    cursor:pointer;
     padding:5px;
     font-size:10px;
 }
@@ -50,6 +51,7 @@ input,button{
 <style>
     
     input,button{
+        cursor:pointer;
         padding:5px;
         font-size:26px;
     }
